@@ -1,4 +1,2 @@
-views\LogginView$1.class
-views\LogginView$2.class
-views\LogginView.class
-main\main.class
+views/SystemView.class
+views/SystemView$1.class

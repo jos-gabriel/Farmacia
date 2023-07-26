@@ -76,7 +76,7 @@ public class LogginView extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Wallpaper.setIcon(new javax.swing.ImageIcon("C:\\Users\\jos_g\\OneDrive\\Documentos\\NetBeansProjects\\Farmacia\\src\\main\\java\\images\\wallpaper.jpg")); // NOI18N
+        Wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/wallpaper.jpg"))); // NOI18N
         jPanel2.add(Wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 412));
